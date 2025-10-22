@@ -19,4 +19,4 @@ if uploaded_image :
     # prediction
     pct,prediction_class= predict(image_path)
     st.write("damage type")
-    st.success(f'{prediction_class} : class confidence {pct*100:0.1f}%')
+    st.success(f'class: {prediction_class}    confidence: {pct*100:0.1f}%')
